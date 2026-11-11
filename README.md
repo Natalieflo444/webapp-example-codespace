@@ -23,3 +23,15 @@ Each agent asks you to log in the first time you run it:
 
 To keep API keys out of the repo, add them as
 [Codespaces secrets](https://github.com/settings/codespaces) instead of typing them in.
+
+## The app
+
+This repository contains a small discount calculator built with React, Vite, and
+Tailwind CSS. Enter an original amount and a discount percentage, and it shows
+how much you save and the final price.
+
+- Run it locally with `./start_dev_server.sh` (or `npm run dev`).
+- Build it with `npm run build`.
+- Every push to `main` publishes it to GitHub Pages via
+  `.github/workflows/deploy.yml`.
+
