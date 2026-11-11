@@ -85,7 +85,7 @@ function App() {
 
         <button
           onClick={reset}
-          className="rounded-lg bg-pink-600 px-5 py-2.5 font-medium text-white shadow hover:bg-pink-500 active:scale-95 transition"
+          className="rounded-lg bg-purple-600 px-5 py-2.5 font-medium text-white shadow hover:bg-purple-500 active:scale-95 transition"
         >
           Reset
         </button>
